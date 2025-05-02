@@ -16,7 +16,7 @@ const ExportCV = () => {
 
     // Create canvas from the HTML content
     const canvas = await html2canvas(element, {
-      scale: 2.5,
+      scale: 3, // Adjust the scale for better quality
       useCORS: true,
       logging: true,
       windowWidth: window.innerWidth, // Dynamically calculate window width

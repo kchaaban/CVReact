@@ -43,7 +43,7 @@ const ProjectItem: React.FC<ProjectProps> = ({
 const Projects: React.FC = () => {
   return (
       <div className="max-w-5xl mx-auto mt-6">
-        <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-200 pb-2">
+        <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-400 pb-2">
           Key Projects
         </h2>
 

@@ -18,7 +18,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({
   technologies
 }) => {
   return (
-    <div className="max-w-5xl mx-auto mt-6">
+    <div className="max-w-5xl mx-auto mt-6 group">
       <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
         <div>
           <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-700 transition-colors">
