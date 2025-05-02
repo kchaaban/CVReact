@@ -3,7 +3,7 @@ import React from 'react';
 const Summary: React.FC = () => {
   return (
       <div className="max-w-5xl mx-auto mt-6">
-        <h2 className="text-2xl font-bold text-blue-900 mb-4 border-b border-gray-200 pb-2">
+        <h2 className="text-2xl font-bold text-blue-900 mb-4 border-b border-gray-400 pb-2">
           Professional Summary
         </h2>
         <p className="text-gray-700 mb-4 leading-relaxed">

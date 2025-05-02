@@ -16,7 +16,7 @@ const ProjectItem: React.FC<ProjectProps> = ({
   outcomes
 }) => {
   return (
-    <div className="mb-6 group mt-6">
+    <div className="mb-6 group">
       <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
         <div>
           <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-700 transition-colors">
@@ -42,7 +42,7 @@ const ProjectItem: React.FC<ProjectProps> = ({
 
 const Projects: React.FC = () => {
   return (
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto mt-6">
         <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-200 pb-2">
           Key Projects
         </h2>

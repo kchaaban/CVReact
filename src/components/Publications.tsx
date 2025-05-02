@@ -7,7 +7,7 @@ interface PublicationsProps {
 const Publications: React.FC<PublicationsProps> = ({ isExporting }) => {
   return (
 <div className="py-6 max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-200 pb-2">
+        <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-400 pb-2">
                   Publications & Achievements
         </h2>
 
