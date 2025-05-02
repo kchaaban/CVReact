@@ -7,12 +7,12 @@ const Header: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end">
           <div className="mb-4 md:mb-0">
-            <h1 className="text-3xl md:text-4xl font-bold mb-2 tracking-tight">Alain, Khaled CHAABAN</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2 tracking-tight">Alain, Khaled CHAABAN, PhD, Eng</h1>
             <h2 className="text-xl md:text-2xl font-medium text-blue-200 mb-2">
-              Associate Professor in Computer Engineering
+              System Engineering | Optimization | AI | IoT | Robotics | Data Science | Smart Cities
             </h2>
             <p className="text-blue-100 max-w-2xl">
-              Expert in embedded systems, real-time software development, and computer engineering with over 18 years of academic and industrial experience.
+              Expert in system engineering and integration, research and developpment, academic activities management and teaching.
             </p>
           </div>
         </div>

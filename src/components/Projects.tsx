@@ -16,7 +16,7 @@ const ProjectItem: React.FC<ProjectProps> = ({
   outcomes
 }) => {
   return (
-    <div className="mb-6 group">
+    <div className="mb-6 group mt-6">
       <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
         <div>
           <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-700 transition-colors">
@@ -42,49 +42,52 @@ const ProjectItem: React.FC<ProjectProps> = ({
 
 const Projects: React.FC = () => {
   return (
-    <section className="py-6 px-4 sm:px-6 md:px-8">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-200 pb-2">
           Key Projects
         </h2>
 
         <ProjectItem
-          title="Smart Urban Mobility Platform"
-          organization="IRT SystemX & City of Paris"
-          period="2020 - Present"
-          description="Leading the development of an integrated platform for optimizing urban mobility across multiple transportation modes, leveraging real-time data and predictive analytics."
+          title="Using ML to Learn an Optimization Process for Multi-modal Transportation Systems"
+          organization="Umm Al-Qura University, Saudi Arabia"
+          period="2022 - 2023"
+          description="This research proposal aims to provide a generic framework focusing on multimodal transportation with the main goal of optimizing the mobility system management by combining machine learning models with the optimization methods."
           outcomes={[
-            "Implemented machine learning algorithms that predict traffic congestion with 87% accuracy 30 minutes in advance",
-            "Designed optimization models that reduce average commute times by 15% during peak hours",
-            "Developed a real-time dashboard providing transportation insights to city officials and urban planners"
+      "A generic and scalable framework allowing the integration of different mobility modes and optimization parameters",
+            "Allowing competent authority to deploy the correct workforce planning and to employ the right resources depending on the periods and times",  
+            "Reducing the crowd in the main stations and enhances the mobility system usability",
+            "Reducing the energy consumption and CO2 emission"
           ]}
-        />
+          />
 
-        <ProjectItem
-          title="Transportation Network Resilience Analysis"
-          organization="SAFESPOT - ANR Funded Project"
-          period="2016 - 2018"
-          description="Studied the resilience of transportation networks against disruptions using complex systems approaches and network theory."
-          outcomes={[
-            "Created a novel methodology for identifying critical infrastructure points in transportation networks",
-            "Developed algorithms to optimize emergency response routing during network disruptions",
-            "Published findings in Transportation Research Part C, increasing project visibility in the scientific community"
-          ]}
-        />
+<ProjectItem
+  title="ELA: Electronic and Software for Autonomous Vehicles"
+  organization="IRT SystemX, Paris"
+  period="2013 - 2016"
+  description="The ELA project has been launched in July 2013 in order to provide operational solutions allowing one to respond to the new technological and economic challenges in the automotive industry, notably with regard to network-connected vehicles and driving assistance systems."
+  outcomes={[
+    "The academic lead for the 'Multi-Core Embedded Systems' work package within the industrial ELA project (details: http://www.irt-systemx.fr/project/ela/).",
+    "Prepared technical reports and project communications.",
+    "Delivered technical training sessions to project members on automotive embedded systems."
+  ]}
+/>
 
-        <ProjectItem
-          title="Sustainable Urban Logistics Optimization"
-          organization="ELA Project - European Commission"
-          period="2013 - 2015"
-          description="Designed optimization algorithms for last-mile delivery in urban environments to reduce emissions and congestion."
-          outcomes={[
-            "Implemented a multi-objective optimization algorithm that reduced delivery vehicle emissions by 22%",
-            "Developed simulation models to test various delivery strategies across different urban scenarios",
-            "Created an interactive tool for logistics companies to optimize their delivery routes and schedules"
-          ]}
-        />
+<div style={{ marginTop: '3cm' }}></div>
+
+<ProjectItem
+  title="SAFESPOT: Cooperative vehicles and road infrastructure for road safety"
+  organization="European FP6 Funded Project"
+  period="2006 - 2010"
+  description="SAFESPOT is an integrated project co-funded by the European Commission Information Society Technologies under the 6th Framework Program. The project focuses on designing cooperative systems for road safety based on vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication. It aims to prevent road accidents by developing a Safety Margin Assistant to detect potentially dangerous situations in advance and extend drivers’ awareness of their surroundings in space and time, leveraging wireless communications. Additionally, the project involved studying the resilience of transportation networks against disruptions using complex systems approaches and network theory."
+  outcomes={[
+    "Created a novel methodology for identifying critical infrastructure points in transportation networks",
+    "Developed algorithms to optimize emergency response routing during network disruptions",
+    "Published findings in Transportation Research Part C, increasing project visibility in the scientific community"
+  ]}
+/>
+ 
+        
       </div>
-    </section>
   );
 };
 

@@ -3,9 +3,9 @@ import React, { forwardRef } from "react";
 import Header from "./Header";
 import Summary from "./Summary";
 import Skills from "./Skills";
-import Education from "./Education";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Responsabilities from "./Responsabilities";
 import Publications from "./Publications";
 import Footer from "./Footer";
 
@@ -15,9 +15,9 @@ const MyCV = forwardRef<HTMLDivElement>((_, ref) => {
       <Header />
       <Summary />
       <Skills />
-      <Education />
       <Experience />
       <Projects />
+      <Responsabilities />
       <Publications />
       <Footer />
     </div>

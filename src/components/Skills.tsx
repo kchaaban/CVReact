@@ -39,7 +39,7 @@ const skillsData: SkillCategory[] = [
     skills: [
       "Academic Leadership",
       "Curriculum Development",
-      "Research Project Management",
+      "Research Development and Management",
       "Graduate Student Mentorship",
       "Technical Documentation",
       "Quality Assurance",
@@ -52,31 +52,29 @@ const skillsData: SkillCategory[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section className="py-6 px-4 sm:px-6 md:px-8 bg-gray-50">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-200 pb-2">
-          Skills & Expertise
-        </h2>
+    <div className="max-w-5xl mx-auto mt-6">
+      <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-200 pb-2">
+        Skills & Expertise
+      </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {skillsData.map((category, index) => (
-            <div key={index} className="bg-white rounded-lg shadow p-5 hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-bold text-blue-800 mb-3">
-                {category.category}
-              </h3>
-              <ul className="space-y-2">
-                {category.skills.map((skill, skillIndex) => (
-                  <li key={skillIndex} className="text-gray-700 flex items-center">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-2 flex-shrink-0"></span>
-                    {skill}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {skillsData.map((category, index) => (
+          <div key={index}>
+            <h3 className="text-xl font-bold text-blue-800 mb-3">
+              {category.category}
+            </h3>
+            <ul className="space-y-2">
+              {category.skills.map((skill, skillIndex) => (
+                <li key={skillIndex} className="text-gray-700 flex items-center">
+                  <span className="w-2 h-2 bg-blue-600 rounded-full mr-2 flex-shrink-0"></span>
+                  {skill}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 
