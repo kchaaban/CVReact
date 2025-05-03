@@ -9,13 +9,13 @@ const skillsData: SkillCategory[] = [
   {
     category: "Technical Expertise",
     skills: [
-      "Embedded Systems Development",
-      "Real-Time Operating Systems",
+      "Cloud Computing & Virtualization",
+      "System Optimization",
       "System Engineering & Architecture",
+      "Data Science & Machine Learning",
       "Quality Assurance & Standards",
       "Robotics & Control Systems",
-      "Distributed Systems",
-      "Network Programming",
+      "Embedded and Distributed Systems",
       "Model-based Engineering",
       "Software Development"
     ]
@@ -45,7 +45,7 @@ const skillsData: SkillCategory[] = [
       "Quality Assurance",
       "ABET Accreditation",
       "Industrial Collaboration",
-      "Conference Presentations"
+      "Professional Training"
     ]
   }
 ];

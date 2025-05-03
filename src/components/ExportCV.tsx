@@ -53,12 +53,12 @@ const ExportCV = () => {
   return (
     <div className="flex flex-col items-center mt-8">
       {/* Button to trigger PDF generation */}
-      <button
+      {/* <button
         onClick={handlePrint}
         className="mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
       >
         Download PDF
-      </button>
+      </button> */}
 
       {/* The content that will be captured for the PDF */}
       <div
@@ -70,6 +70,7 @@ const ExportCV = () => {
       </div>
     </div>
   );
+
 };
 
 export default ExportCV;
