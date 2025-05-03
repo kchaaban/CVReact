@@ -16,6 +16,36 @@
   width: auto;
 }
 
+@media print {
+  /* Remove top and bottom margins */
+ html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* If you're using a wrapper div, reduce its margins */
+  .print-container {
+    margin-top: 0; /* Remove space at the top */
+    padding-top: 0;
+  }
+
+  /* Remove default margins that browsers might apply */
+  header, footer {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Optional: Reduce space in specific sections */
+  header {
+    margin-top: 0 !important;
+  }
+
+  /* Optional: Adjust other margins */
+  .main-content {
+    margin-top: 20px; /* Or whatever works for your layout */
+  }
+}
+
 .pdf-export .inline-flex.items-center > svg {
   display: table-cell;
   vertical-align: middle;
