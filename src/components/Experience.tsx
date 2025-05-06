@@ -18,7 +18,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({
   technologies
 }) => {
   return (
-    <div className="max-w-5xl mx-auto mt-6 group">
+    <div className="max-w-5xl mx-auto mt-3 group">
       <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
         <div>
           <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-700 transition-colors">
@@ -57,7 +57,7 @@ const ExperienceItem: React.FC<ExperienceProps> = ({
 
 const Experience: React.FC = () => {
   return (
-      <div className="max-w-5xl mx-auto mt-6">
+      <div className="max-w-5xl mx-auto mt-4">
         <h2 className="text-2xl font-bold text-blue-900 mb-6 border-b border-gray-400 pb-2">
           Professional Experience
         </h2>
@@ -77,7 +77,8 @@ const Experience: React.FC = () => {
           ]}
           technologies={["Python", "C++", "Smart cities", "Machine Learning", "Data Science", "Robotics", "Networks", "Microcontrollers design", "Operating Systems"]}
         />
-
+{/* Vertical space */}
+{/* <div style={{ marginTop: '6cm' }}></div> */}
         <ExperienceItem
           title="Associate Professor"
           company="ESTACA Engineering School"
@@ -93,7 +94,7 @@ const Experience: React.FC = () => {
           technologies={["Embedded Systems", "Mobility systems", "Real-time OS", "Model-based Engineering", "AUTOSAR", "ISO26262"]}
         />
 {/* Vertical space */}
-<div style={{ marginTop: '3cm' }}></div>
+{/* <div style={{ marginTop: '3cm' }}></div> */}
 <ExperienceItem
   title="Join Researcher"
   company="IRT-SystemX"
@@ -107,7 +108,7 @@ const Experience: React.FC = () => {
   technologies={["Embedded Systems", "Automotive Systems", "Technical Training"]}
 />
 
-<ExperienceItem
+{/* <ExperienceItem
   title="Part-time Lecturer"
   company="Maine University"
   location="Laval, France"
@@ -116,7 +117,7 @@ const Experience: React.FC = () => {
     "Provided lectures on Android system development and Linux operating system."
   ]}
   technologies={["Android", "Linux"]}
-/>
+/> */}
 <ExperienceItem
           title="Associate Researcher"
           company="CNRS, Heudiasyc Lab"
@@ -137,7 +138,7 @@ const Experience: React.FC = () => {
           location="Compiègne, France"
           period="2002 - 2006"
           description= {["Title: A Distributed Real-Time Architecture For Advanced Vehicles",
-            "Roadsense project: A European project on ADAS prototyping",
+            "Roadsense project: An European project on ADAS prototyping",
              "Taught courses in C/C++, Real-time Operating Systems"
             ]
           }

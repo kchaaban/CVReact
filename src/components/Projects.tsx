@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
   ]}
 />
 
-<div style={{ marginTop: '3cm' }}></div>
+{/* <div style={{ marginTop: '3cm' }}></div> */}
 
 <ProjectItem
   title="SAFESPOT: Cooperative vehicles and road infrastructure for road safety"
@@ -81,8 +81,8 @@ const Projects: React.FC = () => {
   description="SAFESPOT is an integrated project co-funded by the European Commission Information Society Technologies under the 6th Framework Program. The project focuses on designing cooperative systems for road safety based on vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication. It aims to prevent road accidents by developing a Safety Margin Assistant to detect potentially dangerous situations in advance and extend drivers’ awareness of their surroundings in space and time, leveraging wireless communications. Additionally, the project involved studying the resilience of transportation networks against disruptions using complex systems approaches and network theory."
   outcomes={[
     "Created a novel methodology for identifying critical infrastructure points in transportation networks",
-    "Developed algorithms to optimize emergency response routing during network disruptions",
-    "Published findings in Transportation Research Part C, increasing project visibility in the scientific community"
+    "Developped new methods of contextual scheduling for online diagnostic of distributed electronic functions at Renault trucks",
+    "Published findings in international journbals and conferences"
   ]}
 />
  

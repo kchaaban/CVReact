@@ -11,8 +11,8 @@ import Footer from "./Footer";
 
 const MyCV = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <div ref={ref} className="p-8 text-gray-800 bg-white">
-      <Header />
+<div ref={ref} className="p-8 text-gray-800 bg-white print:p-0">
+<Header />
       <Summary />
       <Skills />
       <Experience />

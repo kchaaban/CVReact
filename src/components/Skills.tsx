@@ -13,11 +13,11 @@ const skillsData: SkillCategory[] = [
       "System Optimization",
       "System Engineering & Architecture",
       "Data Science & Machine Learning",
-      "Quality Assurance & Standards",
+      "Software Engineering",
       "Robotics & Control Systems",
       "Embedded and Distributed Systems",
-      "Model-based Engineering",
-      "Software Development"
+      "Big Data Analytics",
+      "Smart Cities & Mobility Systems"
     ]
   },
   {
@@ -39,11 +39,11 @@ const skillsData: SkillCategory[] = [
     skills: [
       "Academic Leadership",
       "Curriculum Development",
-      "Research Development and Management",
+      "R&D Management",
       "Graduate Student Mentorship",
       "Technical Documentation",
       "Quality Assurance",
-      "ABET Accreditation",
+      "ABET and NCAAA Accreditation",
       "Industrial Collaboration",
       "Professional Training"
     ]
@@ -57,8 +57,8 @@ const Skills: React.FC = () => {
         Skills & Expertise
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {skillsData.map((category, index) => (
+      <div className="grid grid-cols-1 md:grid-cols-3 print:grid-cols-3 gap-6">
+      {skillsData.map((category, index) => (
           <div key={index}>
             <h3 className="text-xl font-bold text-blue-800 mb-3">
               {category.category}
